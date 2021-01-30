@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibefy</title>
+    <link rel="icon" href="../assets/images/svgs/headphones_head.svg" type="image/svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="../css/register.css">
+    <style>
+        .header-right a:hover {
+            background-color: #ffd900;
+            color: black;
+        }
+
+        .content .fas {
+            font-size: 1.4375rem;
+            background: #ffd900;
+            height: 45px;
+            width: 45px;
+            line-height: 45px;
+            text-align: center;
+            border-radius: 50%;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background: #ffd900;
+        }
+
+        button:hover {
+            background-color: #ffd900;
+            color: black;
+        }
+    </style>
+</head>
+
+<body style="background-color: #17141d;;">
+    <header id="header"></header>
+    <nav class="navbar"></nav>
+    <main id="bckgrnd" style="background-image: url('../assets/images/png/LoginBackground.jpg');">
+        <div class="regform">
+            <h1>Login Form</h1>
+        </div>
+        <div class="main">
+            <form method="POST">
+                <h2 class="name">Nickname </h2>
+                <input class="company" id="nickname" type="text" name="company" required>
+                <h2 class="name">Password</h2>
+                <input class="company" id="password" type="password" name="company" minlength="8" required>
+                <button id="button" type="submit" onclick="save(event)">Login</button>
+            </form>
+        </div>
+    </main>
+    <footer id="my_footer"></footer>
+</body>
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" src="../js/navbar.js"></script>
+<script type="text/javascript" src="../js/login.js"></script>
+<script type="text/javascript" src="../js/footer.js"></script>
+
+</html>

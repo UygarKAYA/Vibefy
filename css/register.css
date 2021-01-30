@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+body {
+   background-position:center;
+   background-size:cover;
+   margin:0;
+   padding:0;
+   font-size: 16px;
+   font-family: 'DM Mono', monospace;
+}
+
+.regform {
+   width:800px;
+   background-color:#23232e;
+   margin:auto;
+   color:#FFFFFF;
+   text-align:center;
+   border-radius:10px 10px 0px 0px ;
+   background: rgba(0, 0, 0, 0.2);
+}
+
+#bckgrnd {
+   height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+   background-color:#23232e;
+   width:800px;
+   margin:auto;
+   background: rgba(0, 0, 0, 0.2); 
+}
+
+form {
+   margin-top: -22px;
+   padding:10px;
+   
+}
+
+#name {
+   height:50px;   
+}
+
+.name {
+   margin-left:25px;
+   margin-top:30px;
+   width: 125px;
+   color: white;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.firstname {
+   position: relative;
+   left:200px;
+   top:-37px;
+   line-height: 40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   opacity: 1.0;
+}
+
+.lastname {
+   position: relative;
+   left:417px;
+   top:-80px;
+   line-height: 40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color:#555;
+}
+
+.firstlabel {
+   position:relative;
+   color:#E5E5E5;    
+   text-transform: capitalize;
+   font-size: 14px;
+   left:203px;
+   top:-45px;
+}
+
+.lastlabel {
+   position:relative;
+   color:#E5E5E5;
+   text-transform:capitalize;
+   font-size:14px;
+   left:492px;
+   top:-76px;
+}
+
+.company {
+   position:relative;
+   left:200px;
+   top:-37px;
+   line-height: 40px;
+   width:480px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color: #555;
+}
+
+.email {
+   position:relative;
+   left:200px;
+   top:-37px;
+   line-height: 40px;
+   width:480px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color: #555;  
+}     
+   
+.Code {
+   position:relative;
+   left:200px;
+   top:-37px;
+   line-height: 40px;
+   width:95px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color: #555;  
+}
+
+.number {
+   position:relative;
+   left:200px;
+   top:-37px;
+   line-height: 40px;
+   width:255px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color: #555; 
+}
+
+.area-code {
+   position:relative;
+   color:#E5E5E5;
+   text-transform:capitalize;
+   font-size:16px;
+   left:54px;
+   top:-4px;
+}
+
+.phone-number {
+   position:relative;
+   color:#E5E5E5;
+   text-transform:capitalize;
+   font-size:16px;
+   left:-100px;
+   top:-2px;
+}
+
+.option {
+   position:relative;
+   left:200px;
+   top:-37px;
+   line-height: 40px;
+   width:532px;
+   height:40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color: #555; 
+   outline:none;
+   overflow:hidden;
+}
+
+.option option {
+   font-size:20px;
+}
+
+.radio {
+   display:inline-block;
+   padding-right:70px;
+   font-size:25px;
+   margin-left:25px;
+   margin-top:15px;
+   color:white;
+}
+
+.radio input {
+   width:20px;
+   height:20px;
+   border-radius:50%;
+   cursor:pointer;
+   outline:none;
+}
+
+button {
+   background-color:black;
+   display:block;
+   margin:20px 0px 0px 20px;
+   text-align:center;
+   border-radius:12px;
+   border:2px solid black;
+   padding:14px 110px;
+   outline:none;
+   color:white;
+   cursor:pointer;
+   transition:0.25px;
+   font-size: 15px;
+   font-weight: bold;
+   margin-left: 280px;
+}

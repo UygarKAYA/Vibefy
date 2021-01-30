@@ -1,43 +1,44 @@
-_ **Vibefy** _
+﻿***Vibefy***
 
-_Vibefy is a Website that people can listen to music based on their mood. People can listen to the music they want from five different music by selecting the desired mode from four different modes which are happy, sad, energetic, angry._
+*Vibefy is a Website that people can listen to music based on their mood. People can listen to the music they want from five different music by selecting the desired mode from four different modes which are happy, sad, energetic, angry.*
 
-_The aim of this project is to classify music according to the mood people feel and present them to the user._
+*The aim of this project is to classify music according to the mood people feel and present them to the user.*
 
-_ **Usage Scenario** _
+***Usage Scenario***
 
-_**1)**__Register_
+***1)*** *Register*
 
-_**2)**__Login_
+***2)*** *Login*   
 
-_**3)**__Select mood_
+***3)*** *Select mood*
 
-_**4)**__Select music_
+***4)*** *Select music*
 
-_**5)**__Play music_
+***5)*** *Play music*
 
-_**6)**__Set volume_
+***6)*** *Set volume* 
 
-_**7)**__Stop music_
+***7)*** *Stop music*
 
-_**8)**__Logout_
+***8)*** *Logout* 
 
-_ **Project Members** _
+***Project Members***
 
-_**1) Uygar Kaya:**_ _Header, footer, sad mood page, some enhancements in JavaScript, HTML and CSS._
+***1) Uygar Kaya:** Header, footer, sad mood page, some enhancements in JavaScript, HTML and CSS.* 
 
-_**2) Tuna Tuncer:**_ _Navbar, angry mood page, bug fixes, some enhancements in JavaScript, HTML and CSS._
+***2) Tuna Tuncer:** Navbar, angry mood page, bug fixes, some enhancements in JavaScript, HTML and CSS.*
 
-_**3) Onur Alaçam:**_ _Energetic mood page, Web Storage API,__some enhancements in JavaScript, HTML and CSS._
+***3) Onur Alaçam:** Energetic mood page, Web Storage API, some enhancements in JavaScript, HTML and CSS.*
 
-_**4) Tuğcan Hoşer:**_ _Happy mood page, Card design,__some enhancements in JavaScript, HTML and CSS._
+***4) Tuğcan Hoşer:** Happy mood page, Card design, some enhancements in JavaScript, HTML and CSS.*
 
-_ **Libraries** _
+***Libraries***
 
-_**1) Fonts Google API to change font families.**_
+***1) Fonts Google API to change font families.***
 
-_**2) Font Awesome to add emojis.**_
+***2) Font Awesome to add emojis.***
 
-_ **Instructions for Vibefy** _
+***Instructions for Vibefy***
 
-_After entering our site, you can optionally become a member. After you become a member, you can log in by directing to the Login page, then you can listen to the song you want by selecting the song type you want from four different modes._
+*After entering our site, you can optionally become a member. After you become a member, you can log in by directing to the Login page, then you can listen to the song you want by selecting the song type you want from four different modes.*
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibefy</title>
+    <link rel="icon" href="../assets/images/svgs/headphones_head.svg" type="image/svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="../css/register.css">
+    <style>
+        .header-right a:hover {
+            background-color: #c80000;
+            color: white;
+        }
+
+        .content .fas {
+            font-size: 1.4375rem;
+            background: #c80000;
+            height: 45px;
+            width: 45px;
+            line-height: 45px;
+            text-align: center;
+            border-radius: 50%;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background: #c80000;
+        }
+
+        button:hover {
+            background-color: #c80000;
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: #141418;">
+    <header id="header"></header>
+    <nav class="navbar"></nav>
+
+    <main id="bckgrnd" style="background-image: url('../assets/images/png/RegisterBackground.jpg');">
+
+        <div class="regform">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="main">
+
+            <form method="POST">
+                <div id="name">
+                    <h2 class="name">Name </h2>
+                    <input class="firstname" id="first_name" type="text" name="first_name" required><br>
+                    <label class="firstlabel">first name</label>
+                    <input class="lastname" id="last_name" type="text" name="last_name" required><br>
+                    <label class="lastlabel">last name</label>
+                </div>
+                <h2 class="name">Nickname </h2>
+                <input class="company" id="nickname" type="text" name="nickname" required>
+                <h2 class="name">Password</h2>
+                <input class="company" id="password" type="password" name="password" minlength="8" required>
+                <h2 class="name">Email</h2>
+                <input class="email" id="email" type="email" name="email" required>
+                <h2 class="name">Gender</h2>
+                <select class="option" id="gender" name="subject" required>
+                    <option value="">Choose Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                    <option value="Unknown">Unknown</option>
+                </select>
+
+                <button id="button" type="submit" onclick="save(event)">Register</button>
+            </form>
+        </div>
+    </main>
+    <footer id="my_footer"></footer>
+</body>
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" src="../js/navbar.js"></script>
+<script type="text/javascript" src="../js/register.js"></script>
+<script type="text/javascript" src="../js/footer.js"></script>
+
+</html>
